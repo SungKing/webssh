@@ -837,3 +837,7 @@ jQuery(function($){
   }
 
 });
+$("#send_str").on('click',function(){
+    ss=$(this).text()
+    wssh.send(ss)
+})
